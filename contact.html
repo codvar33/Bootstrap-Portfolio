@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="row mb-3">
+            <div class="col-md-3 offset-md-1 text-center">
+                <h2>Chad Odvar</h2>
+            </div>
+            <div class="col-md-3 offset-4">
+                <nav class="navbar navbar-expand-xl navbar-light">
+                    <div>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="wrapper row mb-5">
+            <div class="wrapper col-md-7 offset-md-1">
+                <div class="row">
+                    <section class="col-md-11">
+                        <h2 class="border-bottom">Contact</h2>
+                        <form id="form-group">
+                            <ul class="list-group list-unstyled">
+                                <li>
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required="required">
+                                </li>
+                                <li>
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="example@email.com" required="required">
+                                </li>
+                                <li>
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" id="message" name="message" required="required" rows="5"></textarea>
+                                </li>
+                            </ul>
+                            <input class="btn btn-primary mt-2 mb-3" type="submit">
+                        </form>
+                    </section>
+                    <div class="spacer col-md-1"></div>
+                </div>
+            </div>
+            <aside class="col-md-3">
+                <h3 class="border-bottom">Contact Me</h3>
+                <a href="https://github.com/codvar323" target="_blank">
+                    <img class="connect-image" src="./assets/images/github.png" width="60px">
+                </a>
+                <a href="https://www.linkedin.com/in/chadodvar/" target="_blank">
+                    <img class="connect-image" src="./assets/images/linked_in.png" width="60px">
+                </a>
+                <a href="https://https://stackoverflow.com/users/9636912/codvar33" target="_blank">
+                    <img class="connect-image" src="./assets/images/stack.png" width="60px">
+                </a>
+            </aside>
+        </div>
+        <footer class="col-md-12 footer text-center fixed-bottom">
+            &copy;2018 Chad Odvar
+        </footer>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</html>
